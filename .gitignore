@@ -1,5 +1,7 @@
 env/
+__pycache__/
 
 *.cfg
 *.pyc
 *.bat
+*.sqlite3
