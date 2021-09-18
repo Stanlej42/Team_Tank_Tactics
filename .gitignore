@@ -3,5 +3,4 @@ __pycache__/
 
 *.cfg
 *.pyc
-*.bat
 *.sqlite3
