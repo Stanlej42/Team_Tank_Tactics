@@ -3,9 +3,22 @@
 <head>
     <title> Index </title>
     <meta charset = "UTF-8">
+    {% load static %}
+    <script src="{% static 'app/js/pixi.min.js' %}"></script>
 </head>
 <body id = "Text">
     <script>
+        const app = new PIXI.Application({ antialias: true });
+        document.body.appendChild(app.view);
+
+        const graphics = new PIXI.Graphics();
+
+        graphics.beginFill(0xDE3249);
+        graphics.drawRect(50, 50, 100, 100);
+        graphics.endFill();
+
+        app.stage.addChild(graphics);
+
         function click() {
             var xhttp = new XMLHttpRequest();
 
