@@ -1,8 +1,8 @@
 call py -m venv env
 cd env 
 call Scripts/activate
-call python -m pip install Django
+call py -m pip install Django
 cd ..
 cd team_tank_tactics
-call python manage.py makemigrations 
-call python manage.py migrate
+call py manage.py makemigrations 
+call py manage.py migrate
