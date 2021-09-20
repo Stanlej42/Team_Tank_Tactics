@@ -6,3 +6,4 @@ cd ..
 cd team_tank_tactics
 call python manage.py makemigrations 
 call python manage.py migrate
+cd ..
