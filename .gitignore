@@ -1,7 +1,5 @@
 env/
 __pycache__/
-pixi.min.js
-
 
 *.cfg
 *.pyc
